@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;height: 100%;
+    background: rgb(238, 238, 250);
+}
+.navbar{
+    width: 100%;
+    height: 150px;
+    padding:20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.nav1,.nav2,.nav3{
+    margin-top: 10px;
+    display: flex;
+    /* align-items: center; */
+    gap: 5px;
+    flex-direction: column;
+}
+.nav1 h4{
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 17px;
+}
+.nav2 h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.nav3 i{
+    font-size: 20px;
+    font-weight: 400;
+}
+.heading h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 17vw;
+    font-weight: 900;
+    text-transform: capitalize;
+    white-space:nowrap;
+}
+.heading img{
+    position: absolute;
+    top: 45%;
+    left: 54%;
+    transform: translate(-45%,-54%) rotate(-10deg);
+    height: 700px;
+
+}
+.heading{
+    width: 100%;
+    height:400px;
+    /* background: red; */
+}
+.last_context{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* background: #000; */
+}
+.llink{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 4px;
+}
+.llink h4:nth-child(1){
+    border-bottom: 2px solid black;
+}
+.llink h4:nth-child(2){
+    opacity: .5;
+}
+.rlink{
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+.rlink span{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+#span1{
+    /* position: absolute;
+    z-index: 999; */
+    margin: -2px;
+    rotate: -10deg;
+}
+#span3{
+    rotate: 16deg;
+    margin-left: -3px;
+}
+#span4{
+    margin-left: -3px;
+    background: #000;
+    color: white;
+}
+
+.page2{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: rgb(238, 238, 250);
+
+}
+.sub-heading{
+    width: 100%;
+    /* height: 200px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.left-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.left-heading h3:nth-child(1){
+    text-transform: capitalize;
+    opacity: .7;
+}
+.left-heading h3:nth-child(2){
+    /* text-transform: capitalize; */
+    font-size: 25px;
+    font-weight: 900;
+}
+.right-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+}
+.right-heading p{
+    font-size: 22px;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+.btn button{
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    background: #000;
+    color: white;
+    border-radius: 30px;
+}
+.btn i{
+    background: #000;
+    color: white;
+    border-radius: 50%;
+    padding:8px;
+    font-size: 20px;
+}
+
+.cards-menu{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    width: 400px;
+    height: 450px;
+    /* border: 2px solid black; */
+    border-radius: 80px;
+    padding:20px 30px;
+    position: relative;
+}
+.card1{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/0b9495170853177.6464edb80642f.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card2{
+    background-image:linear-gradient(rgba(197, 194, 194, 0.786),rgba(225, 224, 224, 0.289)), url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/fb94b7170853177.6464edb804a8d.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.card3{
+    background-image: linear-gradient(rgba(127, 124, 124, 0.668),rgba(142, 139, 139, 0.546)) ,url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/37d4ff170853177.6464edb724546.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card-nav{
+    width: 100%;
+    
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: white;
+}
+.card-nav h4{
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-nav button{
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    background: transparent;
+    border:2px double rgb(255, 255, 255);
+    color: white;
+}
+.card-heading{
+    margin-top: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+.card3 p{
+    color: rgba(245, 240, 240, 0.89);
+    margin-top: 20px;
+}
+.cards-menu i{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    background:whitesmoke;
+    border-radius:50%;
+    padding: 10px;
+    font-size: 20px;
+    color: grey;
+    border: 2px solid grey;
+    border:double;
+}
